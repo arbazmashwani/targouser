@@ -447,6 +447,7 @@ class _PaymentScreenState extends State<PaymentScreen> {
             "TotalPrice": widget.price,
             "Client Email": user!.email,
             "ClientUid": user!.uid,
+            "readorder": "false",
             "Time": currentTime,
             "PaymentMethod": "Online payment",
             "phoneNumberForRider": phoneNumberForRider,
@@ -688,6 +689,7 @@ class _PaymentScreenState extends State<PaymentScreen> {
                                 "Client Email": user!.email,
                                 "ClientUid": user!.uid,
                                 "Time": currentTime,
+                                "readorder": "false",
                                 "PaymentMethod": "Cash on delivery",
                                 "phoneNumberForRider": phoneNumberForRider,
                                 "MessageForRider": messageForRider
