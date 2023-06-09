@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test WebView</title>
+</head>
+<body>
+    <script>
+        window.addEventListener("flutterBridge", function(event) {
+            var dataFromFlutter = event.detail;
+            console.log('Received data in WebView: ' + dataFromFlutter);
+        });
+
+        function sendDataToFlutter() {
+            var data = "Data from WebView";
+            window.flutterBridge.postMessage(data);
+        }
+
+        // Call the sendDataToFlutter function after 3 seconds to test data passing
+        setTimeout(sendDataToFlutter, 3000);
+    </script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "555557662021",
+    "project_id": "jaggps-e73ca",
+    "storage_bucket": "jaggps-e73ca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:555557662021:android:7c48ad76ab8ddfa887222c",
+        "android_client_info": {
+          "package_name": "com.example.JAGGPS"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "555557662021-hfvvie9mhe97s8lt9k990nvi4bipg38m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.JAGGPS",
+            "certificate_hash": "b0c1e9ef16dd558c3a556f6d26d6e360616c0851"
+          }
+        },
+        {
+          "client_id": "555557662021-56bgur8l9kk7k7ejh2lddrj22uor23ha.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEpdIU1lS0Cwn4jkhxoybHz18Sb1Z875Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "555557662021-56bgur8l9kk7k7ejh2lddrj22uor23ha.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
